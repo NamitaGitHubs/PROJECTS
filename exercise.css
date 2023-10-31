@@ -1,0 +1,24 @@
+#F-button{
+  color: black;
+  border-radius: 13px;
+  border: none;
+  background-color: rgb(80, 163, 80);
+  padding: 9px 25px 9px 25px;
+}
+#S-button{
+  padding: 7px 40px;
+  color: black;
+  border-radius: 13px;
+  border: 2px solid black;
+  background-color: whitesmoke
+
+
+
+}
+#T-button{
+  color: black;
+  border-radius: 13px;
+  border: none;
+  background-color: rgb(80, 163, 80);
+  padding: 9px 25px 9px 25px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise</title>
+  <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+  <h1>Myntra Bag Exercise</h1>
+   <button id = "F-button" onclick="cartQuantity = cartQuantity+1;
+   document.querySelector('#cart-Summary').innerText = `Your Bag has ${cartQuantity} items`;
+   ">Add To Bag</button>
+   <button id = "S-button"  onclick="cartQuantity = cartQuantity-1;
+   document.querySelector('#cart-Summary').innerText = `Your Bag has ${cartQuantity} items`;
+   ">MOVE TO WISHLIST</button>
+   <button id = "T-button" onclick="cartQuantity = cartQuantity+2;
+   document.querySelector('#cart-Summary').innerText = `Your Bag has ${cartQuantity} items`;
+   ">Add 1+1 sale item</button>
+  
+
+   <h1 id = "cart-Summary"></h1>
+
+   <script>
+  let cartQuantity = 0;
+  document.querySelector('#cart-Summary').innerText = `Your Bag has ${cartQuantity} items`;
+
+
+   </script>
+</body>
+</html>
